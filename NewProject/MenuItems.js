@@ -114,10 +114,11 @@ const menuStyles = StyleSheet.create({
     borderColor: '#EDEFEE',
   },
   footerText: {
-    color: '#EDEFEE',
+    color: 'black',
     fontSize: 20,
     flexWrap: 'wrap',
     textAlign: 'center',
+    backgroundColor:'#EE9972',
   },
   button: {
     fontSize: 22,

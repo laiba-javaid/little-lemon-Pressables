@@ -3,14 +3,16 @@ import{ View, StyleSheet } from'react-native';
 
 import LittleLemonHeader from './LittleLemonHeader';
 import MenuItems from './MenuItems';
-
+import LoginScreen from './LoginScreen';
 
 export default function App() {
     return (
       <>
     <View style={styles.container}>
             <LittleLemonHeader />
-            <MenuItems /> 
+            {/* <MenuItems /> */}
+            <LoginScreen/>
+            
           </View>
           
      </>
